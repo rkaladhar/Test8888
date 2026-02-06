@@ -21,10 +21,10 @@ public class CrudRepoTestRunner implements CommandLineRunner {
 	
 		   List<ResultView1> list1=service.searchVaccinesByCompany("pyzer",ResultView1.class);
 		   list1.forEach(view1->System.out.println(view1.getName()+"  "+view1.getCountry()));
-		   System.out.println("------------------------------------------");
+		   System.out.println("------------------------------------------" + list1);
 		   service.searchVaccinesByCompany("Russie", ResultView2.class).
 		                         forEach(view2->System.out.println(view2.getRegNo()+"  "+view2.getPrice()));
-		   System.out.println("------------------------------------------");
+		   System.out.println("--------------------[[[[searchVaccinesByCompany]]]]----------------------" );
 		   service.searchVaccinesByCompany("Russie", ResultView3.class).
                                 forEach(view3->System.out.println(view3.getName()+"  "+view3.getCountry()+"  "+view3.getPrice()));
 	   
