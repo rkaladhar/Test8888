@@ -11,3 +11,4 @@ public interface ICoronaVaccineRepo extends JpaRepository<CoronaVaccine, Long> {
       public <T extends View> List<T> findByCompanyOrderByCompanyDesc(String company,Class<T> clazz); 	       
 	       
 }
+

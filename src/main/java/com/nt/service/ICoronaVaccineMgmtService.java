@@ -7,3 +7,4 @@ import com.nt.type.View;
 public interface ICoronaVaccineMgmtService {
 	      public <T extends View> List<T>  searchVaccinesByCompany(String company , Class<T> clazz);
 	 }
+

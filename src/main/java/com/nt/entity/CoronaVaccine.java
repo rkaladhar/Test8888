@@ -45,3 +45,4 @@ public class CoronaVaccine implements Serializable {
 		}*/
 
 }
+

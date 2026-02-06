@@ -14,3 +14,4 @@ public class GitWebHookController {
         return ResponseEntity.ok("Webhook received");
     }
 }
+

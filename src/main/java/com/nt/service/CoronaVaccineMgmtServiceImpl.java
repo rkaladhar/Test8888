@@ -17,3 +17,4 @@ public class CoronaVaccineMgmtServiceImpl implements ICoronaVaccineMgmtService {
 	}
 	
 }//class
+

@@ -27,8 +27,7 @@ public class CrudRepoTestRunner implements CommandLineRunner {
 		   System.out.println("------------------------------------------");
 		   service.searchVaccinesByCompany("Russie", ResultView3.class).
                                 forEach(view3->System.out.println(view3.getName()+"  "+view3.getCountry()+"  "+view3.getPrice()));
-	
-		   
+	   
 		
 		}//main
 }//class

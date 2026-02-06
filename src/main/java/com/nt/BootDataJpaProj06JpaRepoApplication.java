@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.dao.DataAccessException;
-
 import com.nt.entity.CoronaVaccine;
 import com.nt.service.ICoronaVaccineMgmtService;
 
@@ -16,5 +15,4 @@ public class BootDataJpaProj06JpaRepoApplication {
 		
 		SpringApplication.run(BootDataJpaProj06JpaRepoApplication.class, args);
 			}
-
 }
